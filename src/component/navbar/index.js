@@ -11,6 +11,7 @@ import Avatar from '@mui/material/Avatar'
 import Button from '@mui/material/Button'
 import Tooltip from '@mui/material/Tooltip'
 import MenuItem from '@mui/material/MenuItem'
+import ShoppingCartSharpIcon from '@mui/icons-material/ShoppingCartSharp'
 
 const pages = ['Products', 'Pricing', 'Blog']
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout']
@@ -116,6 +117,16 @@ const Navbar = () => {
                 />
               </IconButton>
             </Tooltip>
+            <ShoppingCartSharpIcon
+              style={{
+                marginLeft: '20px',
+                display: 'inline',
+                float: 'right',
+                width: '70px',
+                height: '40px',
+              }}
+            />
+
             <Menu
               sx={{ mt: '45px' }}
               id="menu-appbar"
